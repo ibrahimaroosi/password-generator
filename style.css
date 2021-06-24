@@ -43,16 +43,20 @@ input, span {
     /* background-color: #9388A2; */
 }
 form div {
-    margin-top: 1em;
+    margin: 1em 0;
     /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
     /* font-size: 1.2em; */
 }
-#copy-icon {
-    width: 1em;
+#copy-button {
+    padding: 0 0.5em;
     height: auto;
+    cursor: pointer;
+}
+#copy-button:active {
+    transform: translateY(2px);
 }
 input[type="submit"] {
     padding: 0.5em;
@@ -60,6 +64,9 @@ input[type="submit"] {
     color: #ddd7e6;
     font-weight: 600;
     border-radius: 5px;
+}
+input[type="submit"]:active {
+    transform: translateY(2px);
 }
 input[type="checkbox"] {
     transform: scale(1.2);
@@ -99,6 +106,6 @@ footer > a > img {
         margin: 0 2em;
     }
 }
-#copy-icon {
+#copy-button {
     display: none;
 }
