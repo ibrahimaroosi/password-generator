@@ -85,7 +85,7 @@ footer{
     justify-content: space-evenly;
     background-color: #9388A2;
     font-weight: 600;
-    /* font-size: 1.2em; */
+    font-size: 1.2em;
 }
 footer > a > img {
     width: 1.5em;
